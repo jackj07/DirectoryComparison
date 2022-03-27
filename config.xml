@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<DirectoryComparisonTool>
+	<defaultDirectoryToModel>C:\Users\user\Documents</defaultDirectoryToModel>
+	<!-- MUST contain #DATE_START# and #DATE_END# -->
+	<defaultResultsDirectory>C:\Users\user\Documents\DirectoryModel\Between-#DATE_START#-And-#DATE_END#</defaultResultsDirectory>
+	<!-- MUST contain #DATE# -->
+	<defaultModelFile>C:\Users\user\Documents\DirectoryModel\#DATE#.txt</defaultModelFile>
+	<defaultCompareWithToday>y</defaultCompareWithToday>
+	<filePathExceptions>
+		<filePathException>C:\Users\user\AppData</filePathException>
+		<filePathException>C:\Users\user\.android</filePathException>
+		<filePathException>C:\Users\user\.gradle</filePathException>
+		<filePathException>C:\Users\user\.p2</filePathException>
+	</filePathExceptions>
+</DirectoryComparisonTool>
